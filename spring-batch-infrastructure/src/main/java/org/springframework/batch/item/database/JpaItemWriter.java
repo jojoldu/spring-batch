@@ -49,7 +49,7 @@ public class JpaItemWriter<T> implements ItemWriter<T>, InitializingBean {
 
 	protected static final Log logger = LogFactory.getLog(JpaItemWriter.class);
 
-	private EntityManagerFactory entityManagerFactory;
+	protected EntityManagerFactory entityManagerFactory;
 
 	/**
 	 * Set the EntityManager to be used internally.

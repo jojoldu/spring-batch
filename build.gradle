@@ -358,6 +358,7 @@ project('spring-batch-infrastructure') {
 		optional "org.springframework:spring-jms:$springVersion"
 		optional "org.springframework:spring-orm:$springVersion"
 		optional "org.springframework:spring-tx:$springVersion"
+		optional "org.springframework.data:spring-data-jpa:$springDataJpaVersion"
 		optional "org.springframework.data:spring-data-commons:$springDataCommonsVersion"
 		optional "org.springframework.data:spring-data-mongodb:$springDataMongodbVersion"
 		optional ("org.springframework.data:spring-data-neo4j:$springDataNeo4jVersion") {
